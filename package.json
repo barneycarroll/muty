@@ -1,10 +1,10 @@
 {
   "name": "muty",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An attempt at a more intuitive API wrapper around W3C DOM MutationObserver",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "browserify tests.js | tape-run"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/barneycarroll/muty/issues"
   },
-  "homepage": "https://github.com/barneycarroll/muty#readme"
+  "homepage": "https://github.com/barneycarroll/muty#readme",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "tape-run": "^2.1.4"
+  }
 }
