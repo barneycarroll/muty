@@ -1,0 +1,22 @@
+{
+  "name": "muty",
+  "version": "0.1.0",
+  "description": "An attempt at a more intuitive API wrapper around W3C DOM MutationObserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barneycarroll/muty.git"
+  },
+  "keywords": [
+    "MutationObserver"
+  ],
+  "author": "Barney Carroll <barney.carroll@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/muty/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/muty#readme"
+}
