@@ -1,5 +1,5 @@
 function muty( options, target, callback ){
-	const observer = new MutationObserver( callback )
+	var observer = new MutationObserver( callback )
 
 	observer.observe( target, options )
 
