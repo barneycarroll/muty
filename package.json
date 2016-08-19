@@ -1,6 +1,6 @@
 {
   "name": "muty",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An attempt at a more intuitive API wrapper around W3C DOM MutationObserver",
   "main": "index.js",
   "scripts": {
