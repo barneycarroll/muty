@@ -1,5 +1,5 @@
 var tape = require( 'tape' )
-var muty = require( './index' )
+var muty = require( './script.js' )
 
 tape( 'Provides a valid options hash at `muty.options`', function( t ){
 	t.equal( typeof muty.options, 'object' )

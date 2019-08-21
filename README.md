@@ -2,11 +2,22 @@
 
 [![Build Status](https://travis-ci.org/barneycarroll/muty.svg?branch=master)](https://travis-ci.org/barneycarroll/muty)
 
-The W3C DOM [MutationObserver](https://developer.mozilla.org/en/docs/Web/API/MutationObserver) API is verbose and unintuitive. This wrapper simply aims to make DOM observation terse and obvious.
+The W3C DOM [MutationObserver](https://developer.mozilla.org/en/docs/Web/API/MutationObserver) API is verbose and unintuitive. This wrapper makes DOM observation terse and obvious.
 
 ## What?
 
 Exposes:
+
+```html
+<script src=//unpkg.com/muty/script.js></script>
+<script src=//unpkg.com/muty/module.js type=module></script>
+```
+
+```javascript
+import muty from 'muty'
+// or
+var muty = require('muty')
+```
 
 ```javascript
 // A single function for mutation observation

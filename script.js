@@ -22,11 +22,6 @@ muty.options = {
 	// attributeFilter    : []
 }
 
-if (typeof module == 'object' )
-	module.exports = muty
-
-else if (typeof define == 'function')
-	define( function(){ return muty })
-
-else if (typeof window == 'object')
-	window.muty = muty
+try {
+  module.exports = muty
+}catch(e){}
